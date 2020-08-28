@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'coconut';
+  src:  url('fonts/coconut.eot?dcek4x');
+  src:  url('fonts/coconut.eot?dcek4x#iefix') format('embedded-opentype'),
+    url('fonts/coconut.ttf?dcek4x') format('truetype'),
+    url('fonts/coconut.woff?dcek4x') format('woff'),
+    url('fonts/coconut.svg?dcek4x#coconut') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="font-"], [class*=" font-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'coconut' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-angle-left:before {
+  content: "\f104";
+}
+.font-angle-right:before {
+  content: "\f105";
+}
+.font-android:before {
+  content: "\f17b";
+}
+.font-cc-visa:before {
+  content: "\f1f0";
+}
+.font-cc-mastercard:before {
+  content: "\f1f1";
+}
+.font-cc-discover:before {
+  content: "\f1f2";
+}
+.font-cc-amex:before {
+  content: "\f1f3";
+}
+.font-cc-paypal:before {
+  content: "\f1f4";
+}
+.font-cc-stripe:before {
+  content: "\f1f5";
+}
+.font-credit-card-alt:before {
+  content: "\f283";
+}
+.font-chevron-right:before {
+  content: "\e900";
+}
+.font-chevron-small-left:before {
+  content: "\e902";
+}
+.font-chevron-small-right:before {
+  content: "\e901";
+}
+.font-credit:before {
+  content: "\e90e";
+}
+.font-location-pin:before {
+  content: "\e90a";
+}
+.font-network:before {
+  content: "\e90d";
+}
+.font-apple:before {
+  content: "\e90f";
+  color: #999;
+}
+.font-facebook:before {
+  content: "\e904";
+  /*color: #1877f2;*/
+}
+.font-github:before {
+  content: "\e905";
+}
+.font-instagram:before {
+  content: "\e906";
+  /*color: #e4405f;*/
+}
+.font-linkedin:before {
+  content: "\e907";
+  /*color: #0077b5;*/
+}
+.font-paypal:before {
+  content: "\e903";
+  color: #00457c;
+}
+.font-stripe:before {
+  content: "\e908";
+  color: #008cdd;
+}
+.font-tumblr:before {
+  content: "\e90c";
+  color: #36465d;
+}
+.font-twitter:before {
+  content: "\e909";
+  /*color: #1da1f2;*/
+}
+.font-visa:before {
+  content: "\e90b";
+  color: #142787;
+}
+.font-cart:before {
+  content: "\e93a";
+}
+.font-location:before {
+  content: "\e947";
+}
+.font-location-circle:before {
+  content: "\e948";
+}
+.font-sphere:before {
+  content: "\e9c9";
+}
+.font-eye:before {
+  content: "\e9ce";
+}
+.font-eye-blocked:before {
+  content: "\e9d1";
+}
+.font-embed1:before {
+  content: "\ea7f";
+}
+.font-embed:before {
+  content: "\ea80";
+}

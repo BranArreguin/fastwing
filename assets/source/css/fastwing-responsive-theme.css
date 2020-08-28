@@ -1,0 +1,1146 @@
+@media screen and (min-width: 1024px) and (max-width: 1790px){
+    .nav-mobile-container{
+        width: 85%;
+        height: auto;
+        display: flex;
+    }
+
+    /*--------------------------Header section---------------------------*/
+    .header-browser-section{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 750px;
+        background: url(../../media/images/backgrounds/header-background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*--------------------------Header section---------------------------*/
+
+    /*--------------------------Food section---------------------------*/
+    .food-info-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 140px 0px;
+        padding-bottom: 190px;
+    }
+    .grid-food{
+        width: 100%;
+        height: auto;
+        max-width: 85%;
+        margin: auto;
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .grid-food h3{
+        font-size: 40px;
+        color: var(--dark);
+        margin-bottom: 20px;
+    }
+    .grid-food p{
+        margin-bottom: 20px;
+    }
+    .grid-food-primary{
+        margin-bottom: 75px;
+    }
+
+    /*-----------------------Fastwing section-------------------------*/
+    .fastwing-info-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .fastwing-grid{
+        width: 100%;
+        height: auto;
+        max-width: 77%;
+        margin: auto;
+        display: grid;
+        grid-gap: 80px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    /*------------------------Cities section--------------------------*/
+    .title-cities{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .title-cities h2{
+        font-size: 48px;
+        color: var(--dark);
+    }
+
+    .cities-super-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 140px 0px;
+        padding-top: 140px;
+    }
+    .cities-grid{
+        width: 100%;
+        height: auto;
+        max-width: 85%;
+        margin: auto;
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-bottom: 80px;
+    }
+
+    .footer-navigation-container{
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 85%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 1024px){
+    /*--------------------------Header section---------------------------*/
+    .header-browser-section{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 660px;
+        background: url(../../media/images/backgrounds/header-background.svg);
+        background-repeat: no-repeat;
+        background-position-x: 95%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .browser-container{
+        position: absolute;
+        top: 220px;
+        width: 540px;
+        margin: auto;
+    }
+    .isotipo-header-static{
+        position: relative;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 50px;
+    }
+    .isotipo-header-static img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+    .search-section{
+        position: relative;
+    }
+    #fastwing-search{
+        width: 100%;
+        height: 50px;
+        border-radius: 60px;
+        border: none;
+        padding: 5px 26px;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--dark);
+        transition: 0.4s ease;
+    }
+    
+    .search-btn{
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: var(--fastwing);
+        color: var(--light);
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    .search-btn:hover{
+        background: var(--fw-hover);
+    }
+    /*--------------------------Header section---------------------------*/
+
+    /*--------------------------Food section---------------------------*/
+    .food-info-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 80px 0px;
+        padding-bottom: 80px;
+        border-bottom: 1px solid var(--light-grey);
+    }
+    .grid-food{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .grid-food h3{
+        font-size: 35px;
+        color: var(--dark);
+        margin-bottom: 30px;
+    }
+    .grid-food p{
+        font-size: 20px;
+        color: var(--dark);
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .grid-food .button-container{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .grid-food-primary{
+        margin-bottom: 60px;
+    }
+    .grid-food-secondary .grid-food-element-secondary{
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .grid-food-element{
+        position: relative;
+    }
+    /*--------------------------Food section---------------------------*/
+
+    /*-----------------------Fastwing section-------------------------*/
+    .fastwing-info-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+    .fastwing-grid{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .fastwing-grid-element a{
+        color: var(--fastwing);
+        font-size: 18px;
+        padding: 5px;
+    }
+    /*-----------------------Fastwing section-------------------------*/
+
+
+    /*------------------------Cities section--------------------------*/
+    .title-cities{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .title-cities h2{
+        font-size: 40px;
+        color: var(--dark);
+    }
+
+    .cities-super-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 80px 0px;
+        padding-top: 80px;
+        border-top: 1px solid var(--light-grey);
+    }
+    .cities-grid{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-bottom: 40px;
+    }
+    .overlay-cover h3{
+        text-align: center;
+        color: var(--light);
+        font-size: 35px;
+    }
+    /*------------------------Cities section--------------------------*/
+
+
+    /*-------------------------Footer--------------------------*/
+    .footer-navigation-container{
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .footer-nav-element-second{
+        display: grid;
+        grid-gap: 20px;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        margin-bottom: 40px;
+    }
+    .footer-nav-element-second h5{
+        font-size: 20px;
+    }
+    .footer-nav-element-second a{
+        font-size: 16px;
+    }
+
+    .footer-nav-element-third{
+        height: auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .third-grid-element-first{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .third-grid-element-first ul{
+        display: block;
+        align-items: center;
+    }
+    .third-grid-element-first h6{
+        font-weight: 600;
+        color: var(--light);
+        font-size: 15px;
+        margin-right: 0;
+    }
+    .third-grid-element-first li{
+        margin: 18px 0px;
+    }
+    .third-grid-element-first a{
+        font-size: 15px;
+    }
+
+    .third-grid-element-second ul{
+        display: flex;
+        float: none;
+        justify-content: center;
+        margin: 0;
+    }
+    .third-grid-element-second a{
+        font-size: 20px;
+        margin: 0px 22px;
+        float: none;
+    }
+    .third-grid-element-second .tw{
+        margin-left: 0px;
+    }
+    /*-------------------------Footer--------------------------*/
+}
+
+
+@media screen and (min-width: 680px) and (max-width: 767px){
+    /*--------------------------Header section---------------------------*/
+    .header-browser-section{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 560px;
+        background: url(../../media/images/backgrounds/header-background.svg);
+        background-repeat: no-repeat;
+        background-position-x: 95%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .browser-container{
+        position: absolute;
+        top: 180px;
+        width: 80%;
+        margin: auto;
+    }
+    .isotipo-header-static{
+        position: relative;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 50px;
+    }
+    .isotipo-header-static img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .search-section{
+        position: relative;
+    }
+    #fastwing-search{
+        width: 100%;
+        height: 50px;
+        border-radius: 60px;
+        border: none;
+        padding: 5px 26px;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--dark);
+        transition: 0.4s ease;
+    }
+
+    .search-btn{
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: var(--fastwing);
+        color: var(--light);
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    .search-btn:hover{
+        background: var(--fw-hover);
+    }
+    /*--------------------------Header section---------------------------*/
+
+
+    /*--------------------------Food section---------------------------*/
+    .food-info-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 80px 0px;
+        padding-bottom: 80px;
+        border-bottom: 1px solid var(--light-grey);
+    }
+    .grid-food{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .grid-food h3{
+        font-size: 35px;
+        color: var(--dark);
+        margin-bottom: 30px;
+    }
+    .grid-food p{
+        font-size: 20px;
+        color: var(--dark);
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .grid-food .button-container{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .grid-food-primary{
+        margin-bottom: 60px;
+    }
+    .grid-food-secondary .grid-food-element-secondary{
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .grid-food-element{
+        position: relative;
+    }
+    /*--------------------------Food section---------------------------*/
+
+
+    /*-----------------------Fastwing section-------------------------*/
+    .fastwing-info-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+    .fastwing-grid{
+        width: 100%;
+        height: auto;
+        max-width: 70%;
+        margin: auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .fastwing-grid-element a{
+        color: var(--fastwing);
+        font-size: 17px;
+        padding: 5px;
+    }
+    /*-----------------------Fastwing section-------------------------*/
+
+
+    /*------------------------Cities section--------------------------*/
+    .title-cities{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .title-cities h2{
+        font-size: 40px;
+        color: var(--dark);
+    }
+
+    .cities-super-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 80px 0px;
+        padding-top: 80px;
+        border-top: 1px solid var(--light-grey);
+    }
+    .cities-grid{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        margin-bottom: 40px;
+    }
+    .overlay-cover h3{
+        text-align: center;
+        color: var(--light);
+        font-size: 35px;
+    }
+    /*------------------------Cities section--------------------------*/
+
+
+
+    /*-------------------------Footer--------------------------*/
+    .footer-navigation-container{
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .footer-nav-element-second{
+        display: grid;
+        grid-gap: 20px;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin-bottom: 40px;
+    }
+    .footer-nav-element-second h5{
+        font-size: 18px;
+    }
+    .footer-nav-element-second a{
+        font-size: 15px;
+    }
+
+    .footer-nav-element-third{
+        height: auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .third-grid-element-first{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .third-grid-element-first ul{
+        display: block;
+        align-items: center;
+    }
+    .third-grid-element-first h6{
+        font-weight: 600;
+        color: var(--light);
+        font-size: 14px;
+        margin-right: 0;
+    }
+    .third-grid-element-first li{
+        margin: 18px 0px;
+    }
+    .third-grid-element-first a{
+        font-size: 14px;
+    }
+
+    .third-grid-element-second ul{
+        display: flex;
+        float: none;
+        justify-content: center;
+        margin: 0;
+    }
+    .third-grid-element-second a{
+        font-size: 20px;
+        margin: 0px 22px;
+        float: none;
+    }
+    .third-grid-element-second .tw{
+        margin-left: 0px;
+    }
+    /*-------------------------Footer--------------------------*/
+}
+@media screen and (min-width: 680px) and (max-width: 767px) and (orientation: landscape){
+    .header-browser-section{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 570px;
+    }
+    .browser-container{
+        position: absolute;
+        top: 200px;
+        width: 450px;
+        margin: auto;
+    }
+    .isotipo-header-static{
+        position: relative;
+        margin: auto;
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+    .cities-grid{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-bottom: 40px;
+    }
+
+    .footer-nav-element-second{
+        display: grid;
+        grid-gap: 20px;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        margin-bottom: 40px;
+    }
+    .footer-nav-element-second h5{
+        font-size: 18px;
+    }
+    .footer-nav-element-second a{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 260px) and (max-width: 680px){
+    /*--------------------------Buttons--------------------------*/
+    .btn{
+        padding: 10px 40px;
+        display: flex;
+        font-size: 16px;
+        border-radius: 70px;
+    }
+    .btn-small{
+        padding: 6px 27px;
+        display: flex;
+        font-size: 13px;
+        border-radius: 40px;
+    }
+    /*--------------------------Buttons--------------------------*/
+
+    /*--------------------------Header section---------------------------*/
+    .header-browser-section{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 560px;
+        background: url(../../media/images/backgrounds/header-background.svg);
+        background-repeat: no-repeat;
+        background-position-x: 95%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .browser-container{
+        position: absolute;
+        top: 250px;
+        width: 80%;
+        margin: auto;
+    }
+    .isotipo-header-static{
+        position: relative;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 50px;
+    }
+    .isotipo-header-static img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .search-section{
+        position: relative;
+    }
+    #fastwing-search{
+        width: 100%;
+        height: 50px;
+        border-radius: 60px;
+        border: none;
+        padding: 5px 26px;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--dark);
+        transition: 0.4s ease;
+    }
+
+    .search-btn{
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: var(--fastwing);
+        color: var(--light);
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    .search-btn:hover{
+        background: var(--fw-hover);
+    }
+    /*--------------------------Header section---------------------------*/
+
+
+    /*--------------------------Food section---------------------------*/
+    .food-info-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 80px 0px;
+        padding-bottom: 80px;
+        border-bottom: 1px solid var(--light-grey);
+    }
+    .grid-food{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .grid-food h3{
+        font-size: 35px;
+        color: var(--dark);
+        margin-bottom: 30px;
+    }
+    .grid-food p{
+        font-size: 20px;
+        color: var(--dark);
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .grid-food .button-container{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .grid-food-primary{
+        margin-bottom: 60px;
+    }
+    .grid-food-secondary .grid-food-element-secondary{
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .grid-food-element{
+        position: relative;
+    }
+    /*--------------------------Food section---------------------------*/
+
+
+    /*-----------------------Fastwing section-------------------------*/
+    .fastwing-info-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+    .fastwing-grid{
+        width: 100%;
+        height: auto;
+        max-width: 70%;
+        margin: auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .fastwing-grid-element a{
+        color: var(--fastwing);
+        font-size: 17px;
+        padding: 5px;
+    }
+
+
+    /*------------------------Cities section--------------------------*/
+    .title-cities{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .title-cities h2{
+        font-size: 40px;
+        color: var(--dark);
+    }
+
+    .cities-super-container{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 80px 0px;
+        padding-top: 80px;
+        border-top: 1px solid var(--light-grey);
+    }
+    .cities-grid{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        margin-bottom: 40px;
+    }
+    .overlay-cover h3{
+        text-align: center;
+        color: var(--light);
+        font-size: 35px;
+    }
+    /*------------------------Cities section--------------------------*/
+
+
+
+    /*-------------------------Footer--------------------------*/
+    .footer-navigation-container{
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .footer-nav-element-second{
+        display: grid;
+        grid-gap: 20px;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin-bottom: 40px;
+    }
+    .footer-nav-element-second h5{
+        font-size: 18px;
+    }
+    .footer-nav-element-second a{
+        font-size: 15px;
+    }
+
+    .footer-nav-element-third{
+        height: auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .third-grid-element-first{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .third-grid-element-first ul{
+        display: block;
+        align-items: center;
+    }
+    .third-grid-element-first h6{
+        font-weight: 600;
+        color: var(--light);
+        font-size: 14px;
+        margin-right: 0;
+    }
+    .third-grid-element-first li{
+        margin: 18px 0px;
+    }
+    .third-grid-element-first a{
+        font-size: 14px;
+    }
+
+    .third-grid-element-second ul{
+        display: flex;
+        float: none;
+        justify-content: center;
+        margin: 0;
+    }
+    .third-grid-element-second a{
+        font-size: 20px;
+        margin: 0px 22px;
+        float: none;
+    }
+    .third-grid-element-second .tw{
+        margin-left: 0px;
+    }
+    /*-------------------------Footer--------------------------*/
+}
+@media screen and (min-width: 260px) and (max-width: 680px) and (orientation: landscape){
+    .header-browser-section{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 400px;
+    }
+    .browser-container{
+        position: absolute;
+        top: 120px;
+        width: 70%;
+        margin: auto;
+    }
+    .isotipo-header-static{
+        position: relative;
+        margin: auto;
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+    .cities-grid{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        margin: auto;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-bottom: 40px;
+    }
+
+    .footer-nav-element-second{
+        display: grid;
+        grid-gap: 20px;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        margin-bottom: 40px;
+    }
+    .footer-nav-element-second h5{
+        font-size: 18px;
+    }
+    .footer-nav-element-second a{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 1150px){
+    /*----------------------Navigation bar----------------------*/
+    .navbar{
+        height: 70px;
+    }
+    
+    .nav-mobile-container{
+        width: 80%;
+        height: auto;
+        display: flex;
+    }
+    
+    .logo-toggle{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 30px;
+    }
+    .company-brand{
+        width: 160px;
+        height: 24px;
+    }
+    .sticky .company-brand{
+        width: 160px;
+        height: 24px;
+    }
+    
+    .burger-button{
+        display: flex;
+    }
+    
+    .menu-container{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background: var(--light);
+        overflow: auto;
+        transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+    .menu-container.active{
+        left: 0%;
+    }
+    
+    .nav-inside-menu{
+        display: flex;
+    }
+    
+    .menu-primary{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .menu-primary ul{
+        display: block;
+        width: 100%;
+    }
+    .menu-primary li{
+        margin: 0px 0px;
+    }
+    .menu-primary a{
+        display: flex;
+        color: var(--fastwing);
+        font-size: 18px;
+        font-weight: 600;
+        padding: 20px 0px;
+        border-bottom: 1px solid var(--grey);
+        padding-bottom: 20px;
+    }
+    .menu-primary a:hover{
+        color: var(--fw-hover);
+    }
+    .menu-primary a:before{
+        display: none;
+    }
+    .sticky .menu-primary a{
+        display: flex;
+        color: var(--fastwing);
+        font-size: 18px;
+        font-weight: 600;
+        padding: 20px 0px;
+        border-bottom: 1px solid var(--grey);
+        padding-bottom: 20px;
+    }
+    .sticky .menu-primary a:hover{
+        color: var(--fw-hover);
+    }
+    .menu-secondary{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .menu-secondary ul{
+        display: block;
+        float: none;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        margin: 0px 0px;
+    }
+    .login-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 54px;
+        color: var(--fastwing);
+        font-size: 18px;
+        border: 2px solid var(--fastwing);
+        border-radius: 60px;
+        margin-bottom: 20px;
+        transition: 0.3s ease;
+    }
+    .login-button:hover{
+        color: var(--fw-hover);
+        border: 2px solid var(--fw-hover);
+    }
+    .signup-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 54px;
+        background: var(--fastwing);
+        color: var(--light);
+        font-size: 18px;
+        border: 2px solid var(--fastwing);
+        border-radius: 60px;
+        margin-left: 0;
+        transition: 0.3s ease;
+    }
+    .signup-button:hover{
+        background: var(--fw-hover);
+        border: 2px solid var(--fw-hover);
+    }
+    
+    .sticky .login-button{
+        color: var(--fastwing);
+        border: 2px solid var(--fastwing);
+    }
+    .sticky .login-button:hover{
+        color: var(--fw-hover);
+        border: 2px solid var(--fw-hover);
+    }
+    /*----------------------Navigation bar----------------------*/
+}

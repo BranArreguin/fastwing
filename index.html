@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastwing</title>
+
+    <meta name="description" content="Fastwing es una platilla diseñada y desarrollada para su uso en el servicio o startup dedicada a delivery food service.">
+    <meta property="og:title" content="Fastwing">
+    <meta property="og:description" content="Fastwing es una platilla diseñada y desarrollada para su uso en el servicio o startup dedicada a delivery food service.">
+    <meta property="og:url" content="https://branarreguin.github.io/fastwing/">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:type" content="website">
+
+    <link rel="apple-touch-icon" sizes="32x32" href="assets/media/head-icons/touch-icon/fastwing-white-32x32.png">
+    <link rel="apple-touch-icon" sizes="64x64" href="assets/media/head-icons/touch-icon/fastwing-white-64x64.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="assets/media/head-icons/touch-icon/fastwing-white-128x128.png">
+    <link rel="apple-touch-icon" sizes="32x32" href="assets/media/head-icons/touch-icon/fastwing-orange-32x32.png">
+    <link rel="apple-touch-icon" sizes="64x64" href="assets/media/head-icons/touch-icon/fastwing-orange-64x64.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="assets/media/head-icons/touch-icon/fastwing-orange-128x128.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" type="text/css" href="assets/source/css/fastwing-theme.css">
+    <link rel="stylesheet" href="assets/media/fonts/icons/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/source/css/fastwing-responsive-theme.css">
+
+    <link rel="shortcut icon" href="assets/media/head-icons/png/fastwing-white-icon.png" sizes="400x400" type="image/png">
+</head>
+
+<body lang="es">
+    <nav class="navbar" id="navbar" data-controller="navigation">
+        <div class="nav-mobile-container">
+            <section class="logo-toggle">
+                <a href="" class="company-brand"></a>
+
+                <button class="burger-button" id="burger-button" data-toggle="toggle">
+                    <div class="icon-container"><span class="burger-icon"></span></div>
+                </button>
+            </section>
+
+            <section class="menu-container" id="menu-container">
+                <div class="nav-inside-menu">
+                    <a href="" class="logo-menu-image"></a>
+                    <button class="close-button" id="close-button" data-toggle="close">
+                        <div class="close-container"><span class="close-icon"></span></div>
+                    </button>
+                </div>
+
+                <div class="menu menu-primary">
+                    <ul class="navigation-unordered-list">
+                        <li class="navigation-list-element"><a href=""><span>Servicios</span></a></li>
+
+                        <li class="navigation-list-element"><a href=""><span>Ubicaciones</span></a></li>
+
+                        <li class="navigation-list-element"><a href=""><span>Fastwing</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="menu menu-secondary">
+                    <ul class="navigation-unordered-list">
+                        <a href="" class="login-button">Iniciar sesión</a>
+
+                        <a href="" class="signup-button">Registro</a>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </nav>
+
+    <script type="text/javascript">
+        window.onscroll = function() {myFunction()}; var header = document.getElementById("navbar"); var sticky = header.offsetTop;
+        function myFunction() { if (window.pageYOffset > sticky) { header.classList.add("sticky"); } else {
+         header.classList.remove("sticky"); } }
+    </script>
+
+
+    <div class="header-browser-section">
+        <section class="browser-container">
+            <div class="isotipo-header-static"><img src="assets/media/logo/fastwing-white-icon.png" alt="fastwing-isotipo"></div>
+
+            <div class="search-section">
+                <input type="search" name="search" id="fastwing-search" placeholder="Dirección de entrega">
+                <button type="button" class="search-btn"><span class="font-chevron-right"></span></button>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="food-info-container">
+        <section class="grid-food grid-food-primary">
+            <div class="grid-food-element grid-food-element-primary">
+                <h3><span>Entrega de pizza y todo tipo de comida</span></h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nam dolores aliquid quisquam deleniti, eius rem cum placeat consequatur voluptates 
+                    tempore odit perferendis officiis hic molestiae nesciunt aspernatur 
+                    libero inventore.
+                </p>
+                <ul class="button-container"><a href="" class="cities-button btn btn-orange"><span>Buscar restaurantes</span></a></ul>
+            </div>
+            <div class="grid-food-element grid-food-element-secondary"><img src="assets/media/images/food/pizza.jpg" alt="food-image"></div>
+        </section>
+
+        <section class="grid-food grid-food-secondary">
+            <div class="grid-food-element grid-food-element-primary"><img src="assets/media/images/food/pancake.jpg" alt="food-image"></div>
+            <div class="grid-food-element grid-food-element-secondary">
+                <h3><span>Encuentra tu postre favorito</span></h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio nam dolores aliquid quisquam deleniti, eius rem cum placeat consequatur voluptates 
+                    tempore odit perferendis officiis hic molestiae nesciunt aspernatur 
+                    libero inventore.
+                </p>
+                <ul class="button-container"><a href="" class="cities-button btn btn-orange"><span>Ordenar ahora</span></a></ul>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="fastwing-info-container">
+        <section class="fastwing-grid">
+            <div class="fastwing-grid-element">
+                <section class="vector-container"><img src="assets/media/images/vector/undraw_online_groceries_a02y.svg" alt="svg-image"></section>
+                <section class="card-link"><a href="" class=""><span>Descarga la app</span></a></section>
+            </div>
+
+            <div class="fastwing-grid-element">
+                <section class="vector-container"><img src="assets/media/images/vector/undraw_on_the_way_ldaq.svg" alt="svg-image"></section>
+                <section class="card-link"><a href="" class=""><span>Conviertete en repartidor</span></a></section>
+            </div>
+
+            <div class="fastwing-grid-element">
+                <section class="vector-container"><img src="assets/media/images/vector/undraw_street_food_hm5i.svg" alt="svg-image"></section>
+                <section class="card-link"><a href="" class=""><span>Asocia tu negocio con nosotros</span></a></section>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="cities-super-container">
+        <section class="title-cities">
+            <h2><span>Ubicaciones</span></h2>
+        </section>
+
+        <section class="cities-grid">
+            <div class="city-grid-element">
+                <img src="assets/media/images/cities/ciudad-de-mexico.jpg" alt="city-image-grid-element">
+                <section class="overlay-cover"><h3><span>Ciudad <br> de <br> México</span></h3></section>
+            </div>
+
+            <div class="city-grid-element">
+                <img src="assets/media/images/cities/monterrey.jpg" alt="city-image-grid-element">
+                <section class="overlay-cover"><h3><span>Monterrey</span></h3></section>
+            </div>
+
+            <div class="city-grid-element">
+                <img src="assets/media/images/cities/guadalajara.jpg" alt="city-image-grid-element">
+                <section class="overlay-cover"><h3><span>Guadalajara</span></h3></section>
+            </div>
+
+            <div class="city-grid-element">
+                <img src="assets/media/images/cities/puebla.jpg" alt="city-image-grid-element">
+                <section class="overlay-cover"><h3><span>Puebla</span></h3></section>
+            </div>
+
+            <div class="city-grid-element">
+                <img src="assets/media/images/cities/Hermosillo.jpg" alt="city-image-grid-element">
+                <section class="overlay-cover"><h3><span>Hermosillo</span></h3></section>
+            </div>
+
+            <div class="city-grid-element">
+                <img src="assets/media/images/cities/chihuahua.jpg" alt="city-image-grid-element">
+                <section class="overlay-cover"><h3><span>Chihuahua</span></h3></section>
+            </div>
+        </section>
+
+        <section class="more-cities">
+            <a href="" class="cities-button btn btn-orange"><span>Más ciudades</span></a>
+        </section>
+    </div>
+
+
+    <footer class="footer" id="footer" data-controller="footerbreakpoint">
+        <div class="footer-navigation-container">
+            <div class="footer-nav-element footer-nav-element-first">
+                <a href="" class="footer-isotipo"></a>
+            </div>
+
+            <div class="footer-nav-element footer-nav-element-second">
+                <section class="footer-grid-element">
+                    <h5><span>Opciones gastronómicas</span></h5>
+                    <ul class="footer-unordered-list">
+                        <li class="footer-navigation-list-element"><a href=""><span>Comida mexicana</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Comida italiana</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Comida china</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Comida rápida</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Comida tailandesa</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Almuerzos</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Postres</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Bebidas</span></a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-grid-element">
+                    <h5><span>Cónocenos</span></h5>
+                    <ul class="footer-unordered-list">
+                        <li class="footer-navigation-list-element"><a href=""><span>Quiénes somos</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Empleos</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Historia</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Fastwing blog</span></a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-grid-element">
+                    <h5><span>Principales ciudades</span></h5>
+                    <ul class="footer-unordered-list">
+                        <li class="footer-navigation-list-element"><a href=""><span>Ciudad de México</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Monterrey</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Guadalajara</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Puebla</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Tijuana</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>León</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Hermosillo</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Chihuahua</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Todas las ciudades</span></a></li>
+                    </ul>
+                </section>
+
+                <section class="footer-grid-element">
+                    <h5><span>Negocios</span></h5>
+                    <ul class="footer-unordered-list">
+                        <li class="footer-navigation-list-element"><a href=""><span>Se repartidor</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Asocia tu negocio</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>FastPartner</span></a></li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="footer-nav-element footer-nav-element-third">
+                <section class="third-grid-element third-grid-element-first">
+                    <ul class="footer-unordered-list">
+                        <li class="footer-navigation-list-element"><h6>The Fastwing Company Ltd.</h6></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Términos del servicio</span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span>Política de privacidad</span></a></li>
+                    </ul>
+                </section>
+
+                <section class="third-grid-element third-grid-element-second">
+                    <ul class="footer-unordered-list">
+                        <li class="footer-navigation-list-element"><a href="" class="tw"><span class="font-twitter"></span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span class="font-linkedin"></span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href=""><span class="font-facebook"></span></a></li>
+
+                        <li class="footer-navigation-list-element"><a href="" class="ig"><span class="font-instagram"></span></a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/source/js/script-open-close-menu.js"></script>
+</body>
+</html>
