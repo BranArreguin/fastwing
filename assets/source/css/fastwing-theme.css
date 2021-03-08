@@ -39,7 +39,7 @@ a, a > span {
 a:before, a:after, a > span:before, a > span:after {
     content: '';
     position: absolute;
-    transition: transform .5s ease;
+    transition: transform .3s ease;
 }
 
 
