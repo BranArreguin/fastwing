@@ -42,6 +42,9 @@ a:before, a:after, a > span:before, a > span:after {
     transition: transform .3s ease;
 }
 
+input, button, textarea{
+    outline: none;
+}
 
 /*--------------------------Buttons--------------------------*/
 .btn{
